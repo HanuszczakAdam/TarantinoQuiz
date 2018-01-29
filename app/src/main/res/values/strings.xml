@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Tarantino Quiz</string>
+    <string name="startButton">START QUIZ</string>
+    <string name="exitButton">EXIT GAME</string>
+    <string name="NextQuestionButton">Next Question</string>
+    <string name="aboutMe">Adam Hanuszczak\nUDACITY Project</string>
+    <string name="hint">Enter your answer here</string>
+    <string name="SubmitAnswers">SUBMIT ANSWERS</string>
+    <string name="goToMain">GO TO MAIN MENU</string>
+    <string name="congratulationText">Congratulations!\nYour score is:</string>
+
+    <string name="q1Label">QUESTION 1/10</string>
+    <string name="q1_text">Where did the Butch father from \n\"Pulp Fiction\" hide his watch during the Vietnam War?</string>
+    <string name="q1_1">in a shoe</string>
+    <string name="q1_2">in the anus</string>
+    <string name="q1_3">in the mattress</string>
+    <string name="q1_4">in the stomach</string>
+
+    <string name="q2Label">QUESTION 2/10</string>
+    <string name="q2_text">What did Ordell Robbie from \n\"Jackie Brown\" deal with?</string>
+    <string name="q2_1">drugs</string>
+    <string name="q2_2">stolen cars</string>
+    <string name="q2_3">weapons</string>
+    <string name="q2_4">diamonds</string>
+
+    <string name="q3Label">QUESTION 3/10</string>
+    <string name="q3_text">For the which movie Quentin Tarantino received a nomination for the Worst Supporting Actor at 17th Golden Raspberry Awards?</string>
+
+    <string name="q4Label">QUESTION 4/10</string>
+    <string name="q4_text">Which Hollywood star appears in the Tarantino\'s movie \"Four Rooms\"?</string>
+    <string name="q4_1">John Travolta</string>
+    <string name="q4_2">Tom Cruise</string>
+    <string name="q4_3">Bruce Willis</string>
+    <string name="q4_4">Leonardo DiCaprio</string>
+
+    <string name="q5Label">QUESTION 5/10</string>
+    <string name="q5_text">How many German scalps has to gather each member of the Aldo Reine group from movie \"Inglourious Basterds\"?</string>
+    <string name="q5_1">50</string>
+    <string name="q5_2">75</string>
+    <string name="q5_3">100</string>
+    <string name="q5_4">200</string>
+
+    <string name="q6Label">QUESTION 6/10</string>
+    <string name="q6_text">Who was the member of Deadly Viper Assassination Squad? \n(multiple choice)</string>
+    <string name="q6_1">O-Ren Ishii</string>
+    <string name="q6_2">Buck</string>
+    <string name="q6_3">Gogo Yubari</string>
+    <string name="q6_4">Budd</string>
+
+    <string name="q7Label">QUESTION 7/10</string>
+    <string name="q7_text">What is the title of the propaganda movie, where main role is played by Frederick Zoller from movie \"Inglourious Basterds\"?</string>
+    <string name="q7_1">\"Proud Eagle\"</string>
+    <string name="q7_2">\"Nation\'s Pride\"</string>
+    <string name="q7_3">\"Iron courage\"</string>
+    <string name="q7_4">\"Cross of courage\"</string>
+
+    <string name="q8Label">QUESTION 8/10</string>
+    <string name="q8_text">What island does Hattori Hanzo from \n\"Kill Bill\" live on?</string>
+    <string name="q8_1">Kiusiu </string>
+    <string name="q8_2">Okinawa</string>
+    <string name="q8_3">Awaji</string>
+    <string name="q8_4">Mapun</string>
+
+    <string name="q9Label">QUESTION 9/10</string>
+    <string name="q9_text">What was the nickname of Michael Madsen from \"Reservoir Dogs\"?</string>
+
+    <string name="q10Label">QUESTION 10/10</string>
+    <string name="q10_text">In which Quentin Tarantino\'s movies did actress Uma Thurman play?\n(multiple choice)</string>
+    <string name="q10_1">\"Django\"</string>
+    <string name="q10_2">\"Kill Bill\"</string>
+    <string name="q10_3">\"Reservoir Dogs\"</string>
+    <string name="q10_4">\"Pulp Fiction\"</string>
+    <string name="q10_5">\"The Hateful Eight\"</string>
+    <string name="q10_6">\"Death Proof\"</string>
+
+    <string name="SubmitLabel">QUIZ COMPLETE</string>
+</resources>

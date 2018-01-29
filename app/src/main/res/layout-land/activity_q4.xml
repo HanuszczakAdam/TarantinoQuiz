@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.android.tarantinoquiz.Q4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageQuestionStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/q4" />
+
+            <TextView
+                style="@style/TextQuestionStyleLand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q4_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioGroup
+                style="@style/RadioQuestionStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q4_1_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkQ4"
+                    android:text="@string/q4_1" />
+
+                <RadioButton
+                    android:id="@+id/q4_2_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkQ4"
+                    android:text="@string/q4_2" />
+
+                <RadioButton
+                    android:id="@+id/q4_3_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkQ4"
+                    android:text="@string/q4_3" />
+
+                <RadioButton
+                    android:id="@+id/q4_4_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkQ4"
+                    android:text="@string/q4_4" />
+            </RadioGroup>
+
+            <Button
+                style="@style/NextQuestionButtonStyleLand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goToQ5"
+                android:text="@string/NextQuestionButton" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--StartButton style-->
+    <style name="startButtonStyle">
+        <item name="android:textSize">@dimen/MainScreenTextSize</item>
+        <item name="android:background">@color/colorButton2</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/buttonMargin</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargin</item>
+    </style>
+
+    <style name="startButtonStyleLand" parent="startButtonStyle">
+        <item name="android:layout_marginTop">@dimen/buttonMarginLand</item>
+    </style>
+    <!--ExitButton style-->
+    <style name="exitButtonStyle" parent="startButtonStyle">
+        <item name="android:layout_marginTop">@dimen/exitButtonMarginTop</item>
+    </style>
+
+    <!--AboutMe style-->
+    <style name="aboutMeStyle" parent="startButtonStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginTop">@dimen/aboutMeMargin</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="ImageQuestionStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/ImageQuestionMargin</item>
+        <item name="android:layout_marginLeft">@dimen/ImageQuestionMargin</item>
+    </style>
+
+    <style name="TextQuestionStyle">
+        <item name="android:textSize">@dimen/QuestionsTextSize</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/buttonMargin</item>
+        <item name="android:layout_marginRight">@dimen/questionMargin</item>
+        <item name="android:layout_marginLeft">@dimen/questionMargin</item>
+    </style>
+
+    <style name="TextQuestionStyleLand">
+        <item name="android:textSize">@dimen/QuestionsTextSizeLand</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/questionMargin</item>
+        <item name="android:layout_marginLeft">@dimen/questionMargin</item>
+    </style>
+
+    <style name="TextQuestion3StyleLand">
+        <item name="android:textSize">@dimen/Questions3TextSizeLand</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/questionMargin</item>
+        <item name="android:layout_marginLeft">@dimen/questionMargin</item>
+    </style>
+
+    <style name="RadioQuestionStyle">
+        <item name="android:layout_marginTop">@dimen/buttonMargin</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargin</item>
+    </style>
+
+    <style name="NextQuestionButtonStyle">
+        <item name="android:background">@color/colorButton</item>
+        <item name="android:layout_marginTop">@dimen/buttonMargin</item>
+        <item name="android:layout_marginRight">@dimen/buttonMargin</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargin</item>
+    </style>
+
+    <style name="NextQuestionButtonStyleLand">
+        <item name="android:background">@color/colorButton</item>
+        <item name="android:baselineAlignBottom">true</item>
+        <item name="android:layout_marginRight">@dimen/buttonMargin</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargin</item>
+    </style>
+
+    <style name="EnterAnswerStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/enterTextMargin</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:layout_marginLeft">@dimen/checkBoxMargin</item>
+    </style>
+
+    <style name="submitCircle">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="submitScoreView" parent="submitCircle">
+        <item name="android:textColor">@color/submitScoreTextColor</item>
+        <item name="android:textSize">@dimen/scoreSubmitTextSize</item>
+    </style>
+
+    <style name="buttonGoToMain">
+        <item name="android:layout_below">@id/score_text_view</item>
+        <item name="android:layout_marginLeft">@dimen/buttonGoToMainMargin</item>
+        <item name="android:layout_marginRight">@dimen/buttonGoToMainMargin</item>
+        <item name="android:layout_marginTop">@dimen/buttonGoToMainMarginTop</item>
+    </style>
+
+    <style name="buttonGoToMainLand" parent="buttonGoToMain">
+        <item name="android:layout_marginLeft">@dimen/buttonGoToMainMarginLand</item>
+        <item name="android:layout_marginRight">@dimen/buttonGoToMainMarginLand</item>
+        <item name="android:layout_marginTop">@dimen/buttonGoToMainMarginTopLand</item>
+    </style>
+
+    <style name="congratulationsTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/congratulationTextColor</item>
+        <item name="android:textSize">@dimen/congratulationTextSize</item>
+        <item name="android:layout_above">@id/score_text_view</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/congratulationMarginBottom</item>
+    </style>
+
+    <style name="congratulationsTextStyleLand" parent="congratulationsTextStyle">
+        <item name="android:textSize">@dimen/congratulationTextSizeLand</item>
+    </style>
+
+</resources>

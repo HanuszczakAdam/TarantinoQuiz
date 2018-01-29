@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#991f00</color>
+    <color name="colorPrimaryDark">#b30000</color>
+    <color name="colorAccent">#663300</color>
+    <color name="colorButton2">#90ffcc00</color>
+    <color name="colorButton">#85ffcc00</color>
+    <color name="background">#ece7e1</color>
+    <color name="submitScoreTextColor">#262626</color>
+    <color name="congratulationTextColor">#1a1a1a</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

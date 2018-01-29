@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.android.tarantinoquiz.Q6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/ImageQuestionStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/q6" />
+
+            <TextView
+                style="@style/TextQuestionStyleLand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_marginTop="@dimen/checkBoxMargin"
+                android:id="@+id/q6_1_check_box"
+                style="@style/CheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_1" />
+
+            <CheckBox
+                android:id="@+id/q6_2_check_box"
+                style="@style/CheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_2" />
+
+            <CheckBox
+                android:id="@+id/q6_3_check_box"
+                style="@style/CheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_3" />
+
+            <CheckBox
+                android:id="@+id/q6_4_check_box"
+                style="@style/CheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_4" />
+
+            <Button
+                style="@style/NextQuestionButtonStyleLand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goToQ7"
+                android:text="@string/NextQuestionButton" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Text Sizes-->
+    <dimen name="QuestionsTextSize">18sp</dimen>
+    <dimen name="QuestionsTextSizeLand">16sp</dimen>
+    <dimen name="Questions3TextSizeLand">14sp</dimen>
+    <dimen name="MainScreenTextSize">25sp</dimen>
+    <dimen name="scoreSubmitTextSize">60sp</dimen>
+    <!--Margin Sizes-->
+    <dimen name="exitButtonMarginTop">30dp</dimen>
+    <dimen name="buttonMargin">15dp</dimen>
+    <dimen name="buttonMarginLand">35dp</dimen>
+    <dimen name="questionMargin">35dp</dimen>
+    <dimen name="ImageQuestionMargin">15dp</dimen>
+    <dimen name="aboutMeMargin">30dp</dimen>
+    <dimen name="enterTextMargin">30dp</dimen>
+    <dimen name="checkBoxMargin">20dp</dimen>
+
+    <!--Button Go To Main-->
+    <dimen name="buttonGoToMainMargin">25dp</dimen>
+    <dimen name="buttonGoToMainMarginTop">60dp</dimen>
+
+    <!--Button Go To Main Landscape-->
+    <dimen name="buttonGoToMainMarginLand">120dp</dimen>
+    <dimen name="buttonGoToMainMarginTopLand">50dp</dimen>
+
+    <!--Congratulation Text-->
+    <dimen name="congratulationMarginBottom">50dp</dimen>
+    <dimen name="congratulationTextSize">45sp</dimen>
+
+    <!--Congratulation Text Landscape-->
+    <dimen name="congratulationTextSizeLand">20sp</dimen>
+
+    </resources>

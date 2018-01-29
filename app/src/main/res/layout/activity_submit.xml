@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.android.tarantinoquiz.Submit">
+
+
+
+    <ImageView
+        style="@style/submitCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/points" />
+
+    <TextView
+        style="@style/submitScoreView"
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/play_again_button"
+        style="@style/buttonGoToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score_text_view"
+        android:onClick="goToMain"
+        android:text="@string/goToMain" />
+
+    <TextView
+        style="@style/congratulationsTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulationText" />
+
+
+</RelativeLayout>

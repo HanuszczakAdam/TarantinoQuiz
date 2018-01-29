@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tarantino_back"
+    tools:context="com.example.android.tarantinoquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/tarantino_quiz_theme" />
+
+        <Button
+            style="@style/startButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startButton"
+            android:onClick="goToQ1"/>
+
+        <Button
+            android:id="@+id/exit_button"
+            style="@style/exitButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="exitGame"
+            android:text="@string/exitButton"/>
+
+        <TextView
+            style="@style/aboutMeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutMe"/>
+
+
+    </LinearLayout>
+</ScrollView>

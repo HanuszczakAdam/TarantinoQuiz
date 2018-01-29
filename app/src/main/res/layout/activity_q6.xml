@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.android.tarantinoquiz.Q6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/ImageQuestionStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/q6" />
+
+        <TextView
+            style="@style/TextQuestionStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q6_text" />
+
+
+        <CheckBox
+            android:id="@+id/q6_1_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6_1" />
+
+        <CheckBox
+            android:id="@+id/q6_2_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6_2" />
+
+        <CheckBox
+            android:id="@+id/q6_3_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6_3" />
+
+        <CheckBox
+            android:id="@+id/q6_4_check_box"
+            style="@style/CheckBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6_4" />
+
+
+        <Button
+            style="@style/NextQuestionButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToQ7"
+            android:text="@string/NextQuestionButton" />
+
+    </LinearLayout>
+
+</ScrollView>
